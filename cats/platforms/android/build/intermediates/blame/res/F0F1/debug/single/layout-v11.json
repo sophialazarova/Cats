@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/sophia/cats/platforms/android/build/intermediates/res/merged/F0F1/debug/layout-v11/on_demand_manual.xml",
+        "source": "/Users/sophia/cats/platforms/android/build/intermediates/exploded-aar/List-2016.2.510-dev-release/res/layout-v11/on_demand_manual.xml"
+    },
+    {
+        "merged": "/Users/sophia/cats/platforms/android/build/intermediates/res/merged/F0F1/debug/layout-v11/simple_list_item.xml",
+        "source": "/Users/sophia/cats/platforms/android/build/intermediates/exploded-aar/List-2016.2.510-dev-release/res/layout-v11/simple_list_item.xml"
+    }
+]

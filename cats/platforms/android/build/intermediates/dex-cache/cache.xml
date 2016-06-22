@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/sophia/cats/platforms/android/libs/nativescript.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="57b3fa4e07f606555cab1d8373106c80acd79f64">
+        <dex dex="/Users/sophia/cats/platforms/android/build/intermediates/pre-dexed/F0F1/debug/nativescript_d5ecda9f29ccff9d6abdcb5933ed1545a8796d1e.jar" />
+    </item>
+    <item
+        jar="/Users/sophia/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="/Users/sophia/cats/platforms/android/build/intermediates/pre-dexed/F0F1/debug/support-annotations-23.4.0_f3f387a769cfd202cc80ec5730e7cfd6287c4233.jar" />
+    </item>
+
+</items>

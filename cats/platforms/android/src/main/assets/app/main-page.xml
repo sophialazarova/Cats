@@ -1,0 +1,32 @@
+<Page loaded='loaded' xmlns:lv='nativescript-telerik-ui/listview' xmlns:drawer='nativescript-telerik-ui/sidedrawer'>
+<Page.actionBar>
+    <ActionBar title='Cat Channel'/>
+</Page.actionBar>
+<drawer:RadSideDrawer id='drawer' android:drawerContentSize="300">
+<drawer:RadSideDrawer.mainContent>
+<lv:RadListView id='lv' items='{{ reddit }}' pullToRefresh="true" pullToRefreshInitiated="loadMoreItems" itemTap="itemTap">
+<lv:RadListView.listViewLayout>
+    <lv:ListViewLinearLayout scrollDirection='Vertical'/>
+</lv:RadListView.listViewLayout>
+<lv:RadListView.itemTemplate>
+    <StackLayout cssClass='itemHolder'>
+        <Label text='{{ title }}' textWrap='true' cssClass='reddit-item' />
+        <Image src='{{ url }}' stretch='aspectFit' height='300'/>
+    </StackLayout>
+</lv:RadListView.itemTemplate>
+</lv:RadListView>
+</drawer:RadSideDrawer.mainContent>
+<drawer:RadSideDrawer.drawerContent>
+    <StackLayout cssClass='drawerContent'>
+        <StackLayout cssClass='headerContent'>
+            <Label text='Feed Settings'/>
+        </StackLayout>
+        <StackLayout cssClass='drawerMenuContent'>
+            <Label text='Layouts' cssClass='drawerSectionHeader'/>
+            <Label text='Linear' cssClass='drawerSectionItem' tap='linearChosen'/>
+            <Label text='Grid' cssClass='drawerSectionItem' tap='gridChosen'/>
+        </StackLayout>
+    </StackLayout>
+</drawer:RadSideDrawer.drawerContent>
+</drawer:RadSideDrawer>
+</Page>
