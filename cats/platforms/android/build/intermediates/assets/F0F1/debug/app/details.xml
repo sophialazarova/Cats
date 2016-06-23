@@ -1,6 +1,0 @@
-<Page navigatedTo='navigatedTo' loaded='onLoaded'>
-<Page.actionBar>
-    <ActionBar title='Details'/>
-</Page.actionBar>
-    <Image src='{{ url }}'/>
-</Page>
